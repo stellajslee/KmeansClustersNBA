@@ -1,0 +1,6 @@
+streamlit
+pandas
+sklearn.cluster
+sklearn.decomposition
+PIL
+matplotlib.pyplot
