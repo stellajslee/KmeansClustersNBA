@@ -84,7 +84,7 @@ Using a machine learning algorithm called KMeans to group NBA Hall of Famers and
 """)
 
 # Open and display image
-image = Image.open('/Users/stellalee/Desktop/pythonproject/hofimage.jpg')
+image = Image.open('hofimage.jpg')
 st.image(image, caption='Tim Duncan, Kobe Bryant, Kevin Garnett', use_column_width=True)
 
 # A bit of explanation
@@ -107,7 +107,7 @@ st.dataframe(data)
 st.write(data.describe())
 
 # Show the data as a chart
-image2 = Image.open('/Users/stellalee/Desktop/pythonproject/scatterplot.png')
+image2 = Image.open('scatterplot.png')
 st.image(image2, caption='Scatter plot of clusters', use_column_width=True)
 
 # Get the cluster from user
