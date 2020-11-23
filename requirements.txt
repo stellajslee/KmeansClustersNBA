@@ -1,6 +1,5 @@
 streamlit
 pandas
-sklearn.cluster
-sklearn.decomposition
+scikit-learn
 PIL
 matplotlib.pyplot
