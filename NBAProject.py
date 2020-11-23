@@ -11,7 +11,7 @@ from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 
 # Get csv file with the data
-data = pd.read_csv('/Users/stellalee/Desktop/pythonproject/nba_players.csv')
+data = pd.read_csv('nba_players.csv')
 # print(data.head(5)) # Check
 # print(data.shape) # Check
 
