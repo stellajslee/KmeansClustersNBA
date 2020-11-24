@@ -111,10 +111,9 @@ image2 = Image.open('scatterplot.png')
 st.image(image2, caption='Scatter plot of clusters', use_column_width=True)
 
 # Get the cluster from user
-user_input_cluster = st.slider('Cluster', 0, 4, 2)
-
 # Set a subheader for user input
 st.header('Which cluster do you want to see?')
+user_input_cluster = st.slider('Cluster', 0, 4, 2)
 st.write(user_input_cluster)
 
 # Display the players in selected cluster
